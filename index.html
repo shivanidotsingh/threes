@@ -3,533 +3,304 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> shivi's camera roll </title> 
+    <title>shivi's camera roll</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📸</text></svg>">
-    </head>
+    
+    <style>
+        .loading-indicator {
+            text-align: center;
+            padding: 20px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            color: #888;
+        }
+    </style>
+</head>
 <body>
 
     <main class="gallery-container" id="gallery-container">
-        
-        <div class="gallery-item" data-order="156" data-caption="solen / Stockholm / 2025">
-            <img src="images/156.jpg" alt="Photo 156">
-        </div>
-        <div class="gallery-item" data-order="155" data-caption="">
-            <img src="images/155.JPG" alt="Photo 155">
-        </div>
-        <div class="gallery-item" data-order="154" data-caption="">
-            <img src="images/154.JPG" alt="Photo 154">
-        </div>
-        
-        <div class="gallery-item" data-order="153" data-caption="">
-            <img src="images/153.JPG" alt="Photo 153">
-        </div>
-        <div class="gallery-item" data-order="160" data-caption="From Pont du Gard / France / 2025">
-            <img src="images/160.JPG" alt="Photo 160">
-        </div>
-        <div class="gallery-item" data-order="162" data-caption="">
-            <img src="images/162.JPG" alt="Photo 162">
-        </div>
+        </main>
 
-        <div class="gallery-item" data-order="167" data-caption="transhumance / Vercor / 2025">
-            <img src="images/167.JPG" alt="Photo 167">
-        </div>
-        <div class="gallery-item" data-order="166" data-caption="">
-            <img src="images/166.JPG" alt="Photo 166">
-        </div>
-        <div class="gallery-item" data-order="165" data-caption="">
-            <img src="images/165.JPG" alt="Photo 165">
-        </div>
-        
-        <div class="gallery-item" data-order="80" data-caption="Woodpecker / Aspudden / 2025">
-            <img loading="lazy" src="images/80.jpg" alt="Photo 80">
-        </div>
-       <div class="gallery-item" data-order="164" data-caption="">
-            <img src="images/164.jpg" alt="Photo 164">
-        </div>
-        <div class="gallery-item" data-order="163" data-caption="">
-            <img src="images/163.JPG" alt="Photo 163">
-        </div>
-        
-        <div class="gallery-item" data-order="159" data-caption="">
-            <img src="images/159.jpg" alt="Photo 159">
-        </div>
-       <div class="gallery-item" data-order="150" data-caption="">
-            <img src="images/150.JPG" alt="Photo 150">
-        </div>
-        <div class="gallery-item" data-order="151" data-caption="">
-            <img src="images/151.JPG" alt="Photo 151">
-        </div>
-        
-         <div class="gallery-item" data-order="152" data-caption="T-bana / midsommarkransen / 2025">
-            <img src="images/152.jpg" alt="Photo 152">
-        </div>
-        <div class="gallery-item" data-order="149" data-caption="">
-            <img src="images/149.JPG" alt="Photo 149">
-        </div>
-        <div class="gallery-item" data-order="148" data-caption="">
-            <img src="images/148.JPG" alt="Photo 148">
-        </div>
-
-        <div class="gallery-item" data-order="138" data-caption="">
-            <img src="images/138.jpg" alt="Photo 138">
-        </div>
-        <div class="gallery-item" data-order="137" data-caption="">
-            <img src="images/137.jpg" alt="Photo 137">
-        </div>
-        <div class="gallery-item" data-order="136" data-caption="">
-            <img src="images/136.jpg" alt="Photo 136">
-        </div>
-        <div class="gallery-item" data-order="135" data-caption="Hay Globes / Copenhagen / 2025">
-            <img loading="lazy" src="images/135.jpg" alt="Photo 135">
-        </div>
-        <div class="gallery-item" data-order="134" data-caption="Cat sitting / Copenhagen / 2025">
-            <img loading="lazy" src="images/134.jpg" alt="Photo 134">
-        </div>
-        <div class="gallery-item" data-order="133" data-caption="">
-            <img loading="lazy" src="images/133.jpg" alt="Photo 133">
-        </div>
-        <div class="gallery-item" data-order="132" data-caption="">
-            <img loading="lazy" src="images/132.jpg" alt="Photo 132">
-        </div>
-        <div class="gallery-item" data-order="131" data-caption="Galgibaga Beach / 2025">
-            <img loading="lazy" src="images/131.jpg" alt="Photo 131">
-        </div>
-        <div class="gallery-item" data-order="130" data-caption="Morning Ritual / Goa / 2025">
-            <img loading="lazy" src="images/130.jpg" alt="Photo 130">
-        </div>
-        <div class="gallery-item" data-order="129" data-caption="">
-            <img loading="lazy" src="images/129.jpg" alt="Photo 129">
-        </div>
-        <div class="gallery-item" data-order="128" data-caption="Backrest / Stockholm / 2024">
-            <img loading="lazy" src="images/128.jpg" alt="Photo 128">
-        </div>
-        <div class="gallery-item" data-order="127" data-caption="End of a vacation / Goa / 2025">
-            <img loading="lazy" src="images/127.jpg" alt="Photo 127">
-        </div>
-        <div class="gallery-item" data-order="126" data-caption="Cat's day out / Stockholm / 2024">
-            <img loading="lazy" src="images/126.jpg" alt="Photo 126">
-        </div>
-        <div class="gallery-item" data-order="125" data-caption="">
-            <img loading="lazy" src="images/125.jpg" alt="Photo 125">
-        </div>
-        <div class="gallery-item" data-order="124" data-caption="">
-            <img loading="lazy" src="images/124.jpg" alt="Photo 124">
-        </div>
-        <div class="gallery-item" data-order="123" data-caption="">
-            <img loading="lazy" src="images/123.jpg" alt="Photo 123">
-        </div>
-        <div class="gallery-item" data-order="122" data-caption="From my window / Stockholm / Aug 2024">
-            <img loading="lazy" src="images/122.jpg" alt="Photo 122">
-        </div>
-        <div class="gallery-item" data-order="121" data-caption="">
-            <img loading="lazy" src="images/121.jpg" alt="Photo 121">
-        </div>
-        <div class="gallery-item" data-order="120" data-caption="Chanterelle / Stockholm / Fall 2024">
-            <img loading="lazy" src="images/120.jpg" alt="Photo 120">
-        </div>
-        <div class="gallery-item" data-order="119" data-caption="">
-            <img loading="lazy" src="images/119.jpg" alt="Photo 119">
-        </div>
-        <div class="gallery-item" data-order="118" data-caption="Weekday Lunches / Winterviken / 2024">
-            <img loading="lazy" src="images/118.jpg" alt="Photo 118">
-        </div>
-        <div class="gallery-item" data-order="117" data-caption="Midsommer / Stockholm / 2024">
-            <img loading="lazy" src="images/117.jpg" alt="Photo 117">
-        </div>
-        <div class="gallery-item" data-order="116" data-caption="">
-            <img loading="lazy" src="images/116.jpg" alt="Photo 116">
-        </div>
-        <div class="gallery-item" data-order="115" data-caption="">
-            <img loading="lazy" src="images/115.jpg" alt="Photo 115">
-        </div>
-        <div class="gallery-item" data-order="114" data-caption="">
-            <img loading="lazy" src="images/114.jpg" alt="Photo 114">
-        </div>
-        <div class="gallery-item" data-order="113" data-caption="">
-            <img loading="lazy" src="images/113.jpg" alt="Photo 113">
-        </div>
-        <div class="gallery-item" data-order="112" data-caption="">
-            <img loading="lazy" src="images/112.jpg" alt="Photo 112">
-        </div>
-        <div class="gallery-item" data-order="111" data-caption="10 days of summer / Stockholm / 2023">
-            <img loading="lazy" src="images/111.jpg" alt="Photo 111">
-        </div>
-        <div class="gallery-item" data-order="110" data-caption="Look outside / Stockholm / 2024">
-            <img loading="lazy" src="images/110.jpg" alt="Photo 110">
-        </div>
-        <div class="gallery-item" data-order="109" data-caption="Ponte & Simone / Liljeholmen / 2024">
-            <img loading="lazy" src="images/109.jpg" alt="Photo 109">
-        </div>
-        <div class="gallery-item" data-order="147" data-caption="Christmas at Bromma / 2024">
-            <img loading="lazy" src="images/147.jpg" alt="Photo 147">
-        </div>
-        <div class="gallery-item" data-order="146" data-caption="">
-            <img loading="lazy" src="images/146.jpg" alt="Photo 146">
-        </div>
-        <div class="gallery-item" data-order="145" data-caption="">
-            <img loading="lazy" src="images/145.jpg" alt="Photo 145">
-        </div>
-        <div class="gallery-item" data-order="144" data-caption="Solna Station / 2024">
-            <img loading="lazy" src="images/144.jpg" alt="Photo 144">
-        </div>
-        <div class="gallery-item" data-order="143" data-caption="">
-            <img loading="lazy" src="images/143.jpg" alt="Photo 143">
-        </div>
-        <div class="gallery-item" data-order="142" data-caption="">
-            <img loading="lazy" src="images/142.jpeg" alt="Photo 142">
-        </div>
-        <div class="gallery-item" data-order="141" data-caption="Kinderdijk / Netherlands / 2024">
-            <img loading="lazy" src="images/141.jpg" alt="Photo 141">
-        </div>
-        <div class="gallery-item" data-order="140" data-caption="Tiny seaside village / Netherlands / 2024">
-            <img loading="lazy" src="images/140.jpg" alt="Photo 140">
-        </div>
-        <div class="gallery-item" data-order="139" data-caption="Low-lying country / Netherlands / 2024">
-            <img loading="lazy" src="images/139.jpg" alt="Photo 139">
-        </div>
-        <div class="gallery-item" data-order="108" data-caption="">
-            <img loading="lazy" src="images/108.jpg" alt="Photo 108">
-        </div>
-        <div class="gallery-item" data-order="107" data-caption="New Office / UNICEF / 2023">
-            <img loading="lazy" src="images/107.jpg" alt="Photo 107">
-        </div>
-        <div class="gallery-item" data-order="106" data-caption="Precise shadows / Stockholm / 2023">
-            <img loading="lazy" src="images/106.jpg" alt="Photo 106">
-        </div>
-        <div class="gallery-item" data-order="105" data-caption="">
-            <img loading="lazy" src="images/105.jpg" alt="Photo 105">
-        </div>
-        <div class="gallery-item" data-order="104" data-caption="Knuckle Trees / Stockholm / 2023">
-            <img loading="lazy" src="images/104.jpg" alt="Photo 104">
-        </div>
-        <div class="gallery-item" data-order="103" data-caption="Hiking is a hobby / Stockholm / 2024">
-            <img loading="lazy" src="images/103.jpg" alt="Photo 103">
-        </div>
-        <div class="gallery-item" data-order="102" data-caption="">
-            <img loading="lazy" src="images/102.jpg" alt="Photo 102">
-        </div>
-        <div class="gallery-item" data-order="101" data-caption="">
-            <img loading="lazy" src="images/101.jpg" alt="Photo 101">
-        </div>
-        <div class="gallery-item" data-order="100" data-caption="Honeymooners / Lucerne / July 2023">
-            <img loading="lazy" src="images/100.jpg" alt="Photo 100">
-        </div>
-        <div class="gallery-item" data-order="99" data-caption="">
-            <img loading="lazy" src="images/99.jpg" alt="Photo 99">
-        </div>
-        <div class="gallery-item" data-order="98" data-caption="RGB world / Stockholm / 2023">
-            <img loading="lazy" src="images/98.jpg" alt="Photo 98">
-        </div>
-        <div class="gallery-item" data-order="97" data-caption="">
-            <img loading="lazy" src="images/97.jpg" alt="Photo 97">
-        </div>
-        <div class="gallery-item" data-order="96" data-caption="Millesgården / 2024">
-            <img loading="lazy" src="images/96.jpg" alt="Photo 96">
-        </div>
-        <div class="gallery-item" data-order="95" data-caption="Glyptotek / Copenhagen / 2024">
-            <img loading="lazy" src="images/95.jpg" alt="Photo 95">
-        </div>
-        <div class="gallery-item" data-order="94" data-caption="Stigberget's Fot / 2023">
-            <img loading="lazy" src="images/94.jpg" alt="Photo 94">
-        </div>
-        <div class="gallery-item" data-order="93" data-caption="">
-            <img loading="lazy" src="images/93.jpg" alt="Photo 93">
-        </div>
-        <div class="gallery-item" data-order="92" data-caption="">
-            <img loading="lazy" src="images/92.jpg" alt="Photo 92">
-        </div>
-        <div class="gallery-item" data-order="91" data-caption="">
-            <img loading="lazy" src="images/91.jpg" alt="Photo 91">
-        </div>
-        <div class="gallery-item" data-order="90" data-caption="Yotel Singapore / 2019">
-            <img loading="lazy" src="images/90.jpg" alt="Photo 90">
-        </div>
-        <div class="gallery-item" data-order="89" data-caption="">
-            <img loading="lazy" src="images/89.jpg" alt="Photo 89">
-        </div>
-        <div class="gallery-item" data-order="88" data-caption="">
-            <img loading="lazy" src="images/88.jpg" alt="Photo 88">
-        </div>
-        <div class="gallery-item" data-order="87" data-caption="Jamun / Bangalore / 2017">
-            <img loading="lazy" src="images/87.jpg" alt="Photo 87">
-        </div>
-        <div class="gallery-item" data-order="86" data-caption="">
-            <img loading="lazy" src="images/86.jpg" alt="Photo 86">
-        </div>
-        <div class="gallery-item" data-order="85" data-caption="">
-            <img loading="lazy" src="images/85.jpg" alt="Photo 85">
-        </div>
-        <div class="gallery-item" data-order="84" data-caption="">
-            <img loading="lazy" src="images/84.jpg" alt="Photo 84">
-        </div>
-        <div class="gallery-item" data-order="83" data-caption="">
-            <img loading="lazy" src="images/83.jpg" alt="Photo 83">
-        </div>
-        <div class="gallery-item" data-order="82" data-caption="">
-            <img loading="lazy" src="images/82.jpg" alt="Photo 82">
-        </div>        
-        
-        <div class="gallery-item" data-order="81" data-caption="">
-            <img loading="lazy" src="images/81.jpg" alt="Photo 81">
-        </div>
-        <div class="gallery-item" data-order="78" data-caption="Moderna Museet / Stockholm / 2024">
-            <img loading="lazy" src="images/78.JPG" alt="Photo 78">
-        </div>
-        <div class="gallery-item" data-order="161" data-caption="shopfront / Prague / 2025">
-            <img loading="lazy" src="images/161.jpg" alt="Photo 161">
-        </div>
-        
-        <div class="gallery-item" data-order="75" data-caption="">
-            <img loading="lazy" src="images/75.jpg" alt="Photo 75">
-        </div>
-        <div class="gallery-item" data-order="74" data-caption="Baby Monstera / Bayside Village / 2020">
-            <img loading="lazy" src="images/74.jpg" alt="Photo 74">
-        </div>
-        <div class="gallery-item" data-order="79" data-caption="Farmer's Market / Embarkadero / 2020">
-            <img loading="lazy" src="images/79.jpg" alt="Photo 79">
-        </div>
-        
-        <div class="gallery-item" data-order="72" data-caption="">
-            <img loading="lazy" src="images/72.jpg" alt="Photo 72">
-        </div>
-        <div class="gallery-item" data-order="71" data-caption="Dusk at TM / Bangalore / 2018">
-            <img loading="lazy" src="images/71.jpg" alt="Photo 71">
-        </div>
-        <div class="gallery-item" data-order="70" data-caption="">
-            <img loading="lazy" src="images/70.jpg" alt="Photo 70">
-        </div>
-        <div class="gallery-item" data-order="69" data-caption="">
-            <img loading="lazy" src="images/69.jpg" alt="Photo 69">
-        </div>
-        <div class="gallery-item" data-order="68" data-caption="workday at Manvi's / Berkeley / 2021">
-            <img loading="lazy" src="images/68.jpg" alt="Photo 68">
-        </div>
-        <div class="gallery-item" data-order="67" data-caption="">
-            <img loading="lazy" src="images/67.jpg" alt="Photo 67">
-        </div>
-        <div class="gallery-item" data-order="66" data-caption="Shruthi's / Philadelphia / 2020">
-            <img loading="lazy" src="images/66.jpg" alt="Photo 66">
-        </div>
-        <div class="gallery-item" data-order="65" data-caption="View from Vinnie's / Vêndome / 2023">
-            <img loading="lazy" src="images/65.jpg" alt="Photo 65">
-        </div>
-        <div class="gallery-item" data-order="64" data-caption="">
-            <img loading="lazy" src="images/64.jpg" alt="Photo 64">
-        </div>
-        <div class="gallery-item" data-order="63" data-caption="">
-            <img loading="lazy" src="images/63.jpg" alt="Photo 63">
-        </div>
-        <div class="gallery-item" data-order="62" data-caption="">
-            <img loading="lazy" src="images/62.jpg" alt="Photo 62">
-        </div>
-        <div class="gallery-item" data-order="61" data-caption="">
-            <img loading="lazy" src="images/61.jpg" alt="Photo 61">
-        </div>
-        <div class="gallery-item" data-order="60" data-caption="B-10 / February 2025">
-            <img loading="lazy" src="images/60.jpg" alt="Photo 60">
-        </div>
-        <div class="gallery-item" data-order="59" data-caption="">
-            <img loading="lazy" src="images/59.jpg" alt="Photo 59">
-        </div>
-        <div class="gallery-item" data-order="58" data-caption="">
-            <img loading="lazy" src="images/58.jpg" alt="Photo 58">
-        </div>
-        <div class="gallery-item" data-order="57" data-caption="">
-            <img loading="lazy" src="images/57.jpg" alt="Photo 57">
-        </div>
-        <div class="gallery-item" data-order="56" data-caption="">
-            <img loading="lazy" src="images/56.jpg" alt="Photo 56">
-        </div>
-        <div class="gallery-item" data-order="55" data-caption="">
-            <img loading="lazy" src="images/55.jpg" alt="Photo 55">
-        </div>
-        <div class="gallery-item" data-order="54" data-caption="Evenings at Mahanagar / Lucknow / 2025">
-            <img loading="lazy" src="images/54.jpg" alt="Photo 54">
-        </div>
-        <div class="gallery-item" data-order="53" data-caption="">
-            <img loading="lazy" src="images/53.jpg" alt="Photo 53">
-        </div>
-        <div class="gallery-item" data-order="52" data-caption="">
-            <img loading="lazy" src="images/52.jpg" alt="Photo 52">
-        </div>
-        <div class="gallery-item" data-order="51" data-caption="">
-            <img loading="lazy" src="images/51.png" alt="Photo 51">
-        </div>
-        <div class="gallery-item" data-order="50" data-caption="">
-            <img loading="lazy" src="images/50.jpg" alt="Photo 50">
-        </div>
-        <div class="gallery-item" data-order="49" data-caption="">
-            <img loading="lazy" src="images/49.jpg" alt="Photo 49">
-        </div>
-        <div class="gallery-item" data-order="48" data-caption="">
-            <img loading="lazy" src="images/48.jpg" alt="Photo 48">
-        </div>
-        <div class="gallery-item" data-order="47" data-caption="Batter / B'lore / 2018">
-            <img loading="lazy" src="images/47.jpg" alt="Photo 47">
-        </div>
-        <div class="gallery-item" data-order="46" data-caption="Compost works / B'lore / 2018">
-            <img loading="lazy" src="images/46.jpg" alt="Photo 46">
-        </div>
-        <div class="gallery-item" data-order="45" data-caption="Body Shop / B'lore / 2017">
-            <img loading="lazy" src="images/45.jpg" alt="Photo 45">
-        </div>
-        <div class="gallery-item" data-order="44" data-caption="">
-            <img loading="lazy" src="images/44.jpg" alt="Photo 44">
-        </div>
-        <div class="gallery-item" data-order="43" data-caption="">
-            <img loading="lazy" src="images/43.jpg" alt="Photo 43">
-        </div>
-        <div class="gallery-item" data-order="42" data-caption="Tchoktchokes">
-            <img loading="lazy" src="images/42.jpg" alt="Photo 42">
-        </div>
-        <div class="gallery-item" data-order="41" data-caption="">
-            <img loading="lazy" src="images/41.jpg" alt="Photo 41">
-        </div>
-        <div class="gallery-item" data-order="40" data-caption="">
-            <img loading="lazy" src="images/40.jpg" alt="Photo 40">
-        </div>
-        <div class="gallery-item" data-order="39" data-caption="">
-            <img loading="lazy" src="images/39.jpg" alt="Photo 39">
-        </div>
-        <div class="gallery-item" data-order="38" data-caption="Low maintenance / Bangalore / ~2018">
-            <img loading="lazy" src="images/38.jpg" alt="Photo 38">
-        </div>
-        <div class="gallery-item" data-order="37" data-caption="Clayface Pots / ~2018">
-            <img loading="lazy" src="images/37.jpg" alt="Photo 37">
-        </div>
-        <div class="gallery-item" data-order="36" data-caption="">
-            <img loading="lazy" src="images/36.jpg" alt="Photo 36">
-        </div>
-        <div class="gallery-item" data-order="35" data-caption="">
-            <img loading="lazy" src="images/35.jpg" alt="Photo 35">
-        </div>
-        <div class="gallery-item" data-order="34" data-caption="Nape / Bangalore / ~2018">
-            <img loading="lazy" src="images/34.jpg" alt="Photo 34">
-        </div>
-        <div class="gallery-item" data-order="33" data-caption="Presidio of San Francisco / Oct 2021">
-            <img loading="lazy" src="images/33.jpg" alt="Photo 33">
-        </div>
-        <div class="gallery-item" data-order="32" data-caption="">
-            <img loading="lazy" src="images/32.jpg" alt="Photo 32">
-        </div>
-        <div class="gallery-item" data-order="31" data-caption="">
-            <img loading="lazy" src="images/31.jpg" alt="Photo 31">
-        </div>
-        <div class="gallery-item" data-order="30" data-caption="Mensho / San Francisco / 2021">
-            <img loading="lazy" src="images/30.jpg" alt="Photo 30">
-        </div>
-        <div class="gallery-item" data-order="29" data-caption="">
-            <img loading="lazy" src="images/29.jpg" alt="Photo 29">
-        </div>
-        <div class="gallery-item" data-order="28" data-caption="">
-            <img loading="lazy" src="images/28.jpg" alt="Photo 28">
-        </div>
-        <div class="gallery-item" data-order="27" data-caption="">
-            <img loading="lazy" src="images/27.jpg" alt="Photo 27">
-        </div>
-        <div class="gallery-item" data-order="26" data-caption="">
-            <img loading="lazy" src="images/26.jpg" alt="Photo 26">
-        </div>
-        <div class="gallery-item" data-order="25" data-caption="">
-            <img loading="lazy" src="images/25.jpg" alt="Photo 25">
-        </div>
-        <div class="gallery-item" data-order="21" data-caption="">
-            <img loading="lazy" src="images/21.jpg" alt="Photo 21">
-        </div>
-        <div class="gallery-item" data-order="20" data-caption="">
-            <img loading="lazy" src="images/20.jpg" alt="Photo 20">
-        </div>
-        <div class="gallery-item" data-order="19" data-caption="">
-            <img loading="lazy" src="images/19.jpg" alt="Photo 19">
-        </div>
-        <div class="gallery-item" data-order="18" data-caption="">
-            <img loading="lazy" src="images/18.jpg" alt="Photo 18">
-        </div>
-        <div class="gallery-item" data-order="17" data-caption="">
-            <img loading="lazy" src="images/17.jpg" alt="Photo 17">
-        </div>
-        <div class="gallery-item" data-order="16" data-caption="">
-            <img loading="lazy" src="images/16.jpg" alt="Photo 16">
-        </div>
-        <div class="gallery-item" data-order="15" data-caption="">
-            <img loading="lazy" src="images/15.jpg" alt="Photo 15">
-        </div>
-        <div class="gallery-item" data-order="14" data-caption="">
-            <img loading="lazy" src="images/14.jpg" alt="Photo 14">
-        </div>
-        <div class="gallery-item" data-order="13" data-caption="">
-            <img loading="lazy" src="images/13.jpg" alt="Photo 13">
-        </div>
-        <div class="gallery-item" data-order="12" data-caption="">
-            <img loading="lazy" src="images/12.jpg" alt="Photo 12">
-        </div>
-        <div class="gallery-item" data-order="11" data-caption="">
-            <img loading="lazy" src="images/11.jpg" alt="Photo 11">
-        </div>
-        <div class="gallery-item" data-order="10" data-caption="">
-            <img loading="lazy" src="images/10.jpg" alt="Photo 10">
-        </div>
-        <div class="gallery-item" data-order="9" data-caption="">
-            <img loading="lazy" src="images/9.jpg" alt="Photo 9">
-        </div>
-        <div class="gallery-item" data-order="8" data-caption="">
-            <img loading="lazy" src="images/8.jpg" alt="Photo 8">
-        </div>
-        <div class="gallery-item" data-order="7" data-caption="">
-            <img loading="lazy" src="images/7.jpg" alt="Photo 7">
-        </div>
-        <div class="gallery-item" data-order="6" data-caption="">
-            <img loading="lazy" src="images/6.jpg" alt="Photo 6">
-        </div>
-        <div class="gallery-item" data-order="5" data-caption="">
-            <img loading="lazy" src="images/5.jpg" alt="Photo 5">
-        </div>
-        <div class="gallery-item" data-order="4" data-caption="">
-            <img loading="lazy" src="images/4.jpg" alt="Photo 4">
-        </div>
-        <div class="gallery-item" data-order="3" data-caption="">
-            <img loading="lazy" src="images/3.jpg" alt="Photo 3">
-        </div>
-        <div class="gallery-item" data-order="2" data-caption="">
-            <img loading="lazy" src="images/2.jpg" alt="Photo 2">
-        </div>
-        <div class="gallery-item" data-order="1" data-caption="">
-            <img loading="lazy" src="images/1.jpg" alt="Photo 1">
-        </div>
-
-    </main>
+    <div id="sentinel" class="loading-indicator">
+        Loading...
+    </div>
 
     <div id="caption-display" class="caption-display"></div>
 
     <script>
+        // --- 1. Photo Data Array (Generated from your HTML) ---
+        // This makes the gallery super fast and easy to maintain.
+        const allPhotos = [
+            { order: 156, caption: "solen / Stockholm / 2025", src: "images/156.jpg" },
+            { order: 155, caption: "", src: "images/155.JPG" },
+            { order: 154, caption: "", src: "images/154.JPG" },
+            { order: 153, caption: "", src: "images/153.JPG" },
+            { order: 160, caption: "From Pont du Gard / France / 2025", src: "images/160.JPG" },
+            { order: 162, caption: "", src: "images/162.JPG" },
+            { order: 167, caption: "transhumance / Vercor / 2025", src: "images/167.JPG" },
+            { order: 166, caption: "", src: "images/166.JPG" },
+            { order: 165, caption: "", src: "images/165.JPG" },
+            { order: 80, caption: "Woodpecker / Aspudden / 2025", src: "images/80.jpg" },
+            { order: 164, caption: "", src: "images/164.jpg" },
+            { order: 163, caption: "", src: "images/163.JPG" },
+            { order: 159, caption: "", src: "images/159.jpg" },
+            { order: 150, caption: "", src: "images/150.JPG" },
+            { order: 151, caption: "", src: "images/151.JPG" },
+            { order: 152, caption: "T-bana / midsommarkransen / 2025", src: "images/152.jpg" },
+            { order: 149, caption: "", src: "images/149.JPG" },
+            { order: 148, caption: "", src: "images/148.JPG" },
+            { order: 138, caption: "", src: "images/138.jpg" },
+            { order: 137, caption: "", src: "images/137.jpg" },
+            { order: 136, caption: "", src: "images/136.jpg" },
+            { order: 135, caption: "Hay Globes / Copenhagen / 2025", src: "images/135.jpg" },
+            { order: 134, caption: "Cat sitting / Copenhagen / 2025", src: "images/134.jpg" },
+            { order: 133, caption: "", src: "images/133.jpg" },
+            { order: 132, caption: "", src: "images/132.jpg" },
+            { order: 131, caption: "Galgibaga Beach / 2025", src: "images/131.jpg" },
+            { order: 130, caption: "Morning Ritual / Goa / 2025", src: "images/130.jpg" },
+            { order: 129, caption: "", src: "images/129.jpg" },
+            { order: 128, caption: "Backrest / Stockholm / 2024", src: "images/128.jpg" },
+            { order: 127, caption: "End of a vacation / Goa / 2025", src: "images/127.jpg" },
+            { order: 126, caption: "Cat's day out / Stockholm / 2024", src: "images/126.jpg" },
+            { order: 125, caption: "", src: "images/125.jpg" },
+            { order: 124, caption: "", src: "images/124.jpg" },
+            { order: 123, caption: "", src: "images/123.jpg" },
+            { order: 122, caption: "From my window / Stockholm / Aug 2024", src: "images/122.jpg" },
+            { order: 121, caption: "", src: "images/121.jpg" },
+            { order: 120, caption: "Chanterelle / Stockholm / Fall 2024", src: "images/120.jpg" },
+            { order: 119, caption: "", src: "images/119.jpg" },
+            { order: 118, caption: "Weekday Lunches / Winterviken / 2024", src: "images/118.jpg" },
+            { order: 117, caption: "Midsommer / Stockholm / 2024", src: "images/117.jpg" },
+            { order: 116, caption: "", src: "images/116.jpg" },
+            { order: 115, caption: "", src: "images/115.jpg" },
+            { order: 114, caption: "", src: "images/114.jpg" },
+            { order: 113, caption: "", src: "images/113.jpg" },
+            { order: 112, caption: "", src: "images/112.jpg" },
+            { order: 111, caption: "10 days of summer / Stockholm / 2023", src: "images/111.jpg" },
+            { order: 110, caption: "Look outside / Stockholm / 2024", src: "images/110.jpg" },
+            { order: 109, caption: "Ponte & Simone / Liljeholmen / 2024", src: "images/109.jpg" },
+            { order: 147, caption: "Christmas at Bromma / 2024", src: "images/147.jpg" },
+            { order: 146, caption: "", src: "images/146.jpg" },
+            { order: 145, caption: "", src: "images/145.jpg" },
+            { order: 144, caption: "Solna Station / 2024", src: "images/144.jpg" },
+            { order: 143, caption: "", src: "images/143.jpg" },
+            { order: 142, caption: "", src: "images/142.jpeg" },
+            { order: 141, caption: "Kinderdijk / Netherlands / 2024", src: "images/141.jpg" },
+            { order: 140, caption: "Tiny seaside village / Netherlands / 2024", src: "images/140.jpg" },
+            { order: 139, caption: "Low-lying country / Netherlands / 2024", src: "images/139.jpg" },
+            { order: 108, caption: "", src: "images/108.jpg" },
+            { order: 107, caption: "New Office / UNICEF / 2023", src: "images/107.jpg" },
+            { order: 106, caption: "Precise shadows / Stockholm / 2023", src: "images/106.jpg" },
+            { order: 105, caption: "", src: "images/105.jpg" },
+            { order: 104, caption: "Knuckle Trees / Stockholm / 2023", src: "images/104.jpg" },
+            { order: 103, caption: "Hiking is a hobby / Stockholm / 2024", src: "images/103.jpg" },
+            { order: 102, caption: "", src: "images/102.jpg" },
+            { order: 101, caption: "", src: "images/101.jpg" },
+            { order: 100, caption: "Honeymooners / Lucerne / July 2023", src: "images/100.jpg" },
+            { order: 99, caption: "", src: "images/99.jpg" },
+            { order: 98, caption: "RGB world / Stockholm / 2023", src: "images/98.jpg" },
+            { order: 97, caption: "", src: "images/97.jpg" },
+            { order: 96, caption: "Millesgården / 2024", src: "images/96.jpg" },
+            { order: 95, caption: "Glyptotek / Copenhagen / 2024", src: "images/95.jpg" },
+            { order: 94, caption: "Stigberget's Fot / 2023", src: "images/94.jpg" },
+            { order: 93, caption: "", src: "images/93.jpg" },
+            { order: 92, caption: "", src: "images/92.jpg" },
+            { order: 91, caption: "", src: "images/91.jpg" },
+            { order: 90, caption: "Yotel Singapore / 2019", src: "images/90.jpg" },
+            { order: 89, caption: "", src: "images/89.jpg" },
+            { order: 88, caption: "", src: "images/88.jpg" },
+            { order: 87, caption: "Jamun / Bangalore / 2017", src: "images/87.jpg" },
+            { order: 86, caption: "", src: "images/86.jpg" },
+            { order: 85, caption: "", src: "images/85.jpg" },
+            { order: 84, caption: "", src: "images/84.jpg" },
+            { order: 83, caption: "", src: "images/83.jpg" },
+            { order: 82, caption: "", src: "images/82.jpg" },         
+            { order: 81, caption: "", src: "images/81.jpg" },
+            { order: 78, caption: "Moderna Museet / Stockholm / 2024", src: "images/78.JPG" },
+            { order: 161, caption: "shopfront / Prague / 2025", src: "images/161.jpg" },
+            { order: 75, caption: "", src: "images/75.jpg" },
+            { order: 74, caption: "Baby Monstera / Bayside Village / 2020", src: "images/74.jpg" },
+            { order: 79, caption: "Farmer's Market / Embarkadero / 2020", src: "images/79.jpg" },
+            { order: 72, caption: "", src: "images/72.jpg" },
+            { order: 71, caption: "Dusk at TM / Bangalore / 2018", src: "images/71.jpg" },
+            { order: 70, caption: "", src: "images/70.jpg" },
+            { order: 69, caption: "", src: "images/69.jpg" },
+            { order: 68, caption: "workday at Manvi's / Berkeley / 2021", src: "images/68.jpg" },
+            { order: 67, caption: "", src: "images/67.jpg" },
+            { order: 66, caption: "Shruthi's / Philadelphia / 2020", src: "images/66.jpg" },
+            { order: 65, caption: "View from Vinnie's / Vêndome / 2023", src: "images/65.jpg" },
+            { order: 64, caption: "", src: "images/64.jpg" },
+            { order: 63, caption: "", src: "images/63.jpg" },
+            { order: 62, caption: "", src: "images/62.jpg" },
+            { order: 61, caption: "", src: "images/61.jpg" },
+            { order: 60, caption: "B-10 / February 2025", src: "images/60.jpg" },
+            { order: 59, caption: "", src: "images/59.jpg" },
+            { order: 58, caption: "", src: "images/58.jpg" },
+            { order: 57, caption: "", src: "images/57.jpg" },
+            { order: 56, caption: "", src: "images/56.jpg" },
+            { order: 55, caption: "", src: "images/55.jpg" },
+            { order: 54, caption: "Evenings at Mahanagar / Lucknow / 2025", src: "images/54.jpg" },
+            { order: 53, caption: "", src: "images/53.jpg" },
+            { order: 52, caption: "", src: "images/52.jpg" },
+            { order: 51, caption: "", src: "images/51.png" },
+            { order: 50, caption: "", src: "images/50.jpg" },
+            { order: 49, caption: "", src: "images/49.jpg" },
+            { order: 48, caption: "", src: "images/48.jpg" },
+            { order: 47, caption: "Batter / B'lore / 2018", src: "images/47.jpg" },
+            { order: 46, caption: "Compost works / B'lore / 2018", src: "images/46.jpg" },
+            { order: 45, caption: "Body Shop / B'lore / 2017", src: "images/45.jpg" },
+            { order: 44, caption: "", src: "images/44.jpg" },
+            { order: 43, caption: "", src: "images/43.jpg" },
+            { order: 42, caption: "Tchoktchokes", src: "images/42.jpg" },
+            { order: 41, caption: "", src: "images/41.jpg" },
+            { order: 40, caption: "", src: "images/40.jpg" },
+            { order: 39, caption: "", src: "images/39.jpg" },
+            { order: 38, caption: "Low maintenance / Bangalore / ~2018", src: "images/38.jpg" },
+            { order: 37, caption: "Clayface Pots / ~2018", src: "images/37.jpg" },
+            { order: 36, caption: "", src: "images/36.jpg" },
+            { order: 35, caption: "", src: "images/35.jpg" },
+            { order: 34, caption: "Nape / Bangalore / ~2018", src: "images/34.jpg" },
+            { order: 33, caption: "Presidio of San Francisco / Oct 2021", src: "images/33.jpg" },
+            { order: 32, caption: "", src: "images/32.jpg" },
+            { order: 31, caption: "", src: "images/31.jpg" },
+            { order: 30, caption: "Mensho / San Francisco / 2021", src: "images/30.jpg" },
+            { order: 29, caption: "", src: "images/29.jpg" },
+            { order: 28, caption: "", src: "images/28.jpg" },
+            { order: 27, caption: "", src: "images/27.jpg" },
+            { order: 26, caption: "", src: "images/26.jpg" },
+            { order: 25, caption: "", src: "images/25.jpg" },
+            { order: 21, caption: "", src: "images/21.jpg" },
+            { order: 20, caption: "", src: "images/20.jpg" },
+            { order: 19, caption: "", src: "images/19.jpg" },
+            { order: 18, caption: "", src: "images/18.jpg" },
+            { order: 17, caption: "", src: "images/17.jpg" },
+            { order: 16, caption: "", src: "images/16.jpg" },
+            { order: 15, caption: "", src: "images/15.jpg" },
+            { order: 14, caption: "", src: "images/14.jpg" },
+            { order: 13, caption: "", src: "images/13.jpg" },
+            { order: 12, caption: "", src: "images/12.jpg" },
+            { order: 11, caption: "", src: "images/11.jpg" },
+            { order: 10, caption: "", src: "images/10.jpg" },
+            { order: 9, caption: "", src: "images/9.jpg" },
+            { order: 8, caption: "", src: "images/8.jpg" },
+            { order: 7, caption: "", src: "images/7.jpg" },
+            { order: 6, caption: "", src: "images/6.jpg" },
+            { order: 5, caption: "", src: "images/5.jpg" },
+            { order: 4, caption: "", src: "images/4.jpg" },
+            { order: 3, caption: "", src: "images/3.jpg" },
+            { order: 2, caption: "", src: "images/2.jpg" },
+            { order: 1, caption: "", src: "images/1.jpg" }
+        ];
+
+        // --- 2. Configuration and State ---
         const galleryContainer = document.getElementById('gallery-container');
-        const captionDisplay = document.getElementById('caption-display'); // Get the new caption display div
+        const captionDisplay = document.getElementById('caption-display');
+        const sentinel = document.getElementById('sentinel');
+        
+        const itemsPerLoad = 20;
+        let currentIndex = 0;
+        let isLoading = false;
+        let observer;
 
+        // --- 3. Core Functions ---
 
-        // --- New JavaScript for Caption Display ---
+        // Function to create the HTML string for a single photo object
+        function createPhotoHtml(photo, isFirstBatch) {
+            // Use native lazy loading for all images *except* the first few for max speed
+            const loadingAttr = isFirstBatch ? '' : 'loading="lazy"';
+            
+            // Set fetchpriority to high for the absolute first image
+            const priorityAttr = (photo.order === allPhotos[0].order) ? 'fetchpriority="high"' : '';
+
+            return `
+                <div class="gallery-item" data-order="${photo.order}" data-caption="${photo.caption}">
+                    <img src="${photo.src}" alt="Photo ${photo.order}" ${loadingAttr} ${priorityAttr}>
+                </div>
+            `;
+        }
+        
+        // Function to load the next batch of photos
+        function loadNextBatch() {
+            if (isLoading || currentIndex >= allPhotos.length) {
+                return; // Prevent loading multiple times or if all are loaded
+            }
+            isLoading = true;
+            sentinel.textContent = "Loading...";
+
+            const batch = allPhotos.slice(currentIndex, currentIndex + itemsPerLoad);
+            const isFirstBatch = currentIndex === 0;
+            
+            let newHtml = '';
+            batch.forEach(photo => {
+                newHtml += createPhotoHtml(photo, isFirstBatch);
+            });
+
+            // Use insertAdjacentHTML for fast DOM addition
+            galleryContainer.insertAdjacentHTML('beforeend', newHtml);
+
+            currentIndex += itemsPerLoad;
+            isLoading = false;
+
+            if (currentIndex >= allPhotos.length) {
+                // All photos loaded. Remove sentinel and disconnect observer.
+                observer.unobserve(sentinel);
+                sentinel.textContent = "You've reached the end of the camera roll.";
+            } else {
+                // Re-observe the sentinel, as its position might have changed
+                observer.unobserve(sentinel);
+                observer.observe(sentinel);
+            }
+        }
+        
+        // --- 4. Intersection Observer Setup (The Magic of Infinite Scroll) ---
+
+        function setupIntersectionObserver() {
+            const options = {
+                root: null, // relative to the viewport
+                rootMargin: '200px', // start loading when the user is 200px away from the bottom
+                threshold: 0.1
+            };
+
+            observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // The sentinel is visible in the viewport (or close to it)
+                        loadNextBatch();
+                    }
+                });
+            }, options);
+
+            // Start observing the sentinel element
+            observer.observe(sentinel);
+        }
+        
+        // --- 5. Initialisation and Event Listeners ---
+
+        // Initial load of the first batch and setting up the observer
+        loadNextBatch(); // This loads the first 20 items immediately
+        setupIntersectionObserver();
+        
+        // Existing Caption Display Logic (Remains the same)
         galleryContainer.addEventListener('mouseover', (event) => {
-            const galleryItem = event.target.closest('.gallery-item'); // Find the closest gallery-item ancestor
+            const galleryItem = event.target.closest('.gallery-item');
             if (galleryItem) {
-                const caption = galleryItem.dataset.caption; // Get caption from data-caption attribute
-
-                // Only show if caption exists and is not empty or just whitespace
+                const caption = galleryItem.dataset.caption;
                 if (caption && caption.trim() !== '') {
                     captionDisplay.textContent = caption;
-                    captionDisplay.style.display = 'block'; // Make it visible
+                    captionDisplay.style.display = 'block';
                 } else {
-                    captionDisplay.style.display = 'none'; // Hide if no caption
+                    captionDisplay.style.display = 'none';
                 }
             }
         });
 
-        galleryContainer.addEventListener('mouseout', (event) => {
-            // Hide the caption display when mouse leaves the gallery area
-            captionDisplay.textContent = ''; // Clear text
-            captionDisplay.style.display = 'none'; // Hide it
+        galleryContainer.addEventListener('mouseout', () => {
+            captionDisplay.textContent = '';
+            captionDisplay.style.display = 'none';
         });
-        // --- End New JavaScript for Caption Display ---
+
     </script>
 </body>
 </html>
